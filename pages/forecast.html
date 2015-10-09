@@ -1,0 +1,14 @@
+<p>
+	<a href="/">Back to Search</a>
+</p>
+
+Forecast for {{ recipe }}
+<hr />
+
+<div ng-repeat="r in recipeResult.result">
+	<div class="row">
+		<div class="col-md-12">
+			<weather-report weather-day='w'></weather-report>
+		</div>
+	</div>
+</div>
